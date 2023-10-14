@@ -1,0 +1,210 @@
+
+header{
+    position: relative;
+    height: 30px;
+    background-color: #F5F5F5;
+    font-size: small;
+    margin-left: 0;
+    color: red;
+    padding-left: 18%;
+    margin-top:  -5px; ;
+}
+.head-r{
+    float: right;
+    height: 20px;
+    width: 800px;
+    /* border: 1px solid; */
+ 
+}
+/* 按钮样式 */
+.dpbt1{
+    margin-left: 120px;
+    background-color: #E9E6EA;
+    color: rgb(5, 5, 5);
+    width: 80px;
+    height: 20px;
+}
+.dpbt2{
+    background-color: #E9E6EA;
+    color: rgb(5, 5, 5);
+    width: 80px;
+    height: 20px;
+}
+.dropdown1{
+    position: relative;
+    display: inline-block;
+}
+.dropdown2{
+    position: relative;
+    display: inline-block;
+}
+/* 下拉内容 */
+.dc1{
+    margin-left: 120px;
+    height: 20px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    background-color: rgb(149, 149, 149);
+    font-size: 4px;
+    text-align: center;
+    color: #a8a8a8;
+}
+.dc2{
+    height: 20px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    background-color: rgb(149, 149, 149);
+    font-size: 4px;
+    text-align: center;
+}
+.dc1 a{
+    color: black;
+    display: block;
+}
+.dc2 a{
+    color: black;
+    display: block;
+}
+.dc1 a:hover{
+    background-color: #E9E6EA;
+}
+.dc2 a:hover{
+    background-color: #E9E6EA;
+}
+/* 鼠标悬停效果 */
+.dc1 a :hover{
+    background-color: rgb(135, 135, 135);
+}
+.dc2 a :hover{
+    background-color: rgb(135, 135, 135);
+}
+/* 鼠标悬停显示下拉菜单 */
+.dropdown1:hover .dc1{
+    display: block;
+}
+.dropdown2:hover .dc2{
+    display: block;
+}
+/* 下拉后按钮颜色 */
+.dropdown1:hover .dpbt1{
+    background-color: #FF4400;
+}
+.dropdown2:hover .dpbt2{
+    background-color: #FF4400;
+}
+.gwc{
+    margin-top: -20px;
+    height: 20px;
+    width: 50px;
+     /* border: 1px solid; */
+}
+.navlist .tz1{
+    margin-left: -20px;
+    margin-top: 5px;
+}
+/* 调整logo */
+a{
+    color: #3c3c3c;
+}
+li{
+    list-style-type: none;
+}
+.navlist li{
+    float: left;
+    line-height: 10px;
+    /* 去列表符号 */
+    list-style: none;
+    width: 80px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left:-60px ;
+    /* border: 1px solid red; */
+    position: 0px 0px ;
+    font-size: 5px;
+    color: #000000;
+    
+}
+.navlist a{
+    color: #000000;
+    
+}
+.logo{
+    height: 100px;
+    
+}
+nav{
+    height: 200px;
+    width: 1480px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bolder;
+    /* border: 1px solid; */
+}
+nav div{
+    margin-left: 60px;
+}
+main{
+    height: 600px;
+    width: 1480px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+}
+main li{
+    float: left;
+    margin-left: 20px;
+}
+main img{
+    height: 240px;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+footer{
+
+    height: 200px;
+    /* border: 1px solid red; */
+    
+
+}
+footer .jt{
+    display: flex;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+footer .jt li{
+    float: left;
+    margin-left:  10px;
+    margin-top: 4px;
+    width: 80px;
+     height: 20px;
+    /* border: 1px solid red; */
+    font-size: 1px;
+    text-align: center;
+}
+.jt li a{
+    color: #3a3a3a;
+}
+
+/* 底部证书 */
+footer .zs{
+    height: 20px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8px;
+    color: #3a3a3a;
+}
+footer .bb{
+    height: 20px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 8px;
+    color: #3a3a3a;
+}
